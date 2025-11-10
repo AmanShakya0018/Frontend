@@ -1,0 +1,47 @@
+1.scripting 
+2.dynamicically 
+3.single thread -Promises 
+4.oops 
+5.virtual dom 
+6.Robust in nature
+7.Event Driven -hover
+8.Platform Independent -wora 
+9.Functional and procedural
+10.ssr vs csr 
+
+---------------------------------------------------------------------------
+
+variables - containers to store datatypes 
+
+Primitive -
+Non-Primitive - 
+
+
+let,var,const
+Undefined 
+Null 
+Symbol 
+BigInt 
+Boolean
+number 
+string
+
+var-declared,reinitialised                    lexical no                functional sc
+let-declare,intialise,reinitialsie                                      global var
+cosnt-declare and initialsie , no redeclare   lexical no                local scope
+
+
+hoisting 
+scope
+------------------------------------------------------------------------------
+
+Operators
+1.Arithmetic
+2.Relational/comparision Operators
+3.logical
+4.Bitwise
+5.ternary Operators
+6.Unary Operators
+7.Assigment Operators
+8.type Operators
+9.nullish coalsecing
