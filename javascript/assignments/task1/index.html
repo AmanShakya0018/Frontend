@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Changer</title>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+      }
+
+      .big-box {
+        width: 300px;
+        height: 200px;
+        border: 2px solid #000;
+        margin-bottom: 30px;
+        background-color: lightgray;
+        border-radius: 10px;
+      }
+
+      .colors {
+        display: flex;
+        gap: 15px;
+      }
+
+      .small-box {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        cursor: pointer;
+        border: 2px solid #333;
+        transition: transform 0.2s;
+      }
+
+      .small-box:hover {
+        transform: scale(1.1);
+      }
+
+      .red {
+        background-color: red;
+      }
+      .blue {
+        background-color: blue;
+      }
+      .green {
+        background-color: green;
+      }
+      .yellow {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="big-box" id="bigBox"></div>
+
+      <div class="colors">
+        <button class="small-box red" id="btn1"></button>
+        <button class="small-box blue" id="btn2"></button>
+        <button class="small-box green" id="btn3"></button>
+        <button class="small-box yellow" id="btn4"></button>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
